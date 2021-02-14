@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To get the app running, you clone this repo, `cd` into it and run
+`bundle install` to install all the required dependencies.
+Then run `rails db:migrate` to create our database and make migrations and `rake db:seeds` to feed the database with some data defined in `db/seeds.rb`.
 
-Things you may want to cover:
+To get the server running run `rails s` and go to http://127.0.0.1:3000 in your browser
 
-* Ruby version
+To get a list of all the timesheets, go to http://127.0.0.1:3000/api/v1/timesheets.json
 
-* System dependencies
+other endpoints can be tested also all defined in `/app/controllers/api/v1/timesheets_controller.rb`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
