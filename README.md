@@ -7,6 +7,7 @@ Then run `rails db:migrate` to create our database and make migrations and `rake
 To get the server running run `rails s` and go to http://127.0.0.1:3000 in your browser
 
 To get a list of all the timesheets, go to http://127.0.0.1:3000/api/v1/timesheets.json
+Since it was an api only thing, I used the responders gem to achieve this result
 
 other endpoints can be tested also all defined in `/app/controllers/api/v1/timesheets_controller.rb`
 
